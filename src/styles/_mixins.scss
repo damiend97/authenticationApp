@@ -1,0 +1,21 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin fullScreen {
+    height: 100vh;
+    width: 100%;
+}
+@mixin whiteStyled {
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;;
+}
+@mixin normalA {
+    text-decoration: none;
+    color: white;
+}
+@mixin whiteText {
+    color: white;
+}
